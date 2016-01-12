@@ -29,6 +29,16 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
+      .when('/install', {
+        templateUrl: 'views/install.html',
+        controller: 'InstallCtrl',
+        controllerAs: 'install'
+      })
+      .when('/contactus', {
+        templateUrl: 'views/contactus.html',
+        controller: 'ContactusCtrl',
+        controllerAs: 'contactus'
+      })
       .otherwise({
         redirectTo: '/'
       });

@@ -109,6 +109,19 @@ body {
 
   }
 
+  .install{
+    z-index: 100;
+    background-color: transparent;
+    h1{
+      font-weight: 200;
+    }
+  }
+
+  .install-body{
+    text-align: left;
+    z-index: 100;
+  }
+
   .lordium-logo-container {
     padding:15px 0px 0px 0px;
     margin: 0px;
