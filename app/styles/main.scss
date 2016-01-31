@@ -105,8 +105,10 @@ body {
     h1{
       font-weight: 200;
     }
+  }
 
-
+  .lordium-using{
+    z-index:1000;
   }
 
   .install{
@@ -119,6 +121,19 @@ body {
 
   .install-body{
     text-align: left;
+    z-index: 100;
+  }
+
+  .contactus{
+    z-index: 100;
+    background-color: transparent;
+    h1{
+      font-weight: 200;
+    }
+  }
+
+  .contactus-body{
+    text-align: center;
     z-index: 100;
   }
 

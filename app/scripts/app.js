@@ -42,4 +42,13 @@ angular
       .otherwise({
         redirectTo: '/'
       });
+  })
+  .run(function($rootScope, $location) {
+    // .location = $location.path();
+
+    $rootScope.currentMenu = function(current){
+      var isActive = (current === $location.path())
+      return isActive;
+    }
   });
+
